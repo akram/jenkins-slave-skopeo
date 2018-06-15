@@ -29,3 +29,5 @@ node('jenkins-slave-skopeo-centos7') {
     """
   }
 
+```
+
