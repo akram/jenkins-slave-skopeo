@@ -7,6 +7,7 @@ This repository contains Dockerfiles for a Jenkins Slave Docker image intended f
 ```
 oc import-image siamaksade/jenkins-slave-skopeo-centos7 --confirm
 oc label is jenkins-slave-skopeo-centos7 role=jenkins-slave
+```
 
 In your Jenkinsfile, use a node named jenkins-slave-skopeo-centos7 to run skopeo commands
 
